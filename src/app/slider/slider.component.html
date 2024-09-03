@@ -1,7 +1,7 @@
 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner" >
-      <div *ngFor="let project of projects let i = index" class="carousel-item active" [class.active]="i === 0">
-        <img src="{{project.pictures}}" style="justify-content: center;" alt="...">
+      <div *ngFor="let project of projects.slice(0,3) let i = index" class="carousel-item active" [class.active]="i === 0">
+        <img src="{{project.pictures}}" style="justify-content: center; max-height: 300px; min-height: 300px;" alt="...">
         <p>{{project.description}}</p>
       </div>
     </div>

@@ -25,17 +25,24 @@ export class ProjectsService {
   },{id: 2,
     name: 'First PHP project',
     summary: 'WWE showcase site',
-    description: 'Site for the history of the WWE, show the PLEs, show the champions and be able to change them by being admin, a forum to exchange, and registration',
-    projectLink: "",
-    pictures: ['./assets/angPica4.PNG'],
+    description: 'First site that i make on the history of the WWE, show the PLEs, show the champions and be able to change them by being admin, a forum to exchange, and registration',
+    projectLink: "https://webacademy.be/projets/2020/wwe_fan_belgium/index.html",
+    pictures: ['./assets/wwe.png'],
     tags: [Tag.HTML, Tag.PHP, Tag.CSS]
   },{id: 3,
-    name: 'Java App, HELHa help',
+    name: 'Java App',
     summary: '3nd year project',
     description: 'Site for helha students to be able to exchange documents and discuss different subjects. An admin party for the moderation of all the site',
     projectLink: "",
     pictures: ['./assets/angPica4.PNG'],
     tags: [Tag.JAVA, Tag.ANGULAR, Tag.CSS]
+  },{id: 4,
+    name: 'Angular Front-end',
+    summary: '3nd year project',
+    description: 'Front end of an application to post photos and add likes, you can see your profile, the last 10 posts that users have posted, a comment/description of the photo',
+    projectLink: "",
+    pictures: ['./assets/angPica4.PNG'],
+    tags: [Tag.ANGULAR, Tag.CSS]
   },
   ]
 
