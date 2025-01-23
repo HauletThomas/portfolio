@@ -43,6 +43,13 @@ export class ProjectsService {
     projectLink: "",
     pictures: ['./assets/angPica4.PNG'],
     tags: [Tag.ANGULAR, Tag.REST, Tag.JSON, Tag.HTML, Tag.CSS]
+  },{id: 5,
+    name: 'Project Angular, Spring Boot, PostgreSQL',
+    summary: 'Security Springboot, login, register, using api riot games, screen to draw',
+    description: 'Learning some new things',
+    projectLink: "https://github.com/HauletThomas/ProjetPerso",
+    pictures: ['./assets/angPica4.PNG'],
+    tags: [Tag.ANGULAR, Tag.REST, Tag.JSON, Tag.HTML, Tag.CSS, Tag.POSTGRESQL, Tag.SPRINGBOOT]
   },
   ]
 

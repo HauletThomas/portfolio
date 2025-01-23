@@ -1,4 +1,54 @@
-.head{
+.head {
+    font-family: 'Poppins', sans-serif;
+    background-color: #343a40;
+    /* Foncé élégant */
+    color: #f8f9fa;
+    /* Texte clair */
+    background: linear-gradient(135deg, #343a40, #2c354b);
     padding: 2rem 1rem;
-    background-color: #e9ecef;
+    animation: fadeIn 2s ease-out;
+    overflow: hidden;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+h1.display-4:hover,
+h3:hover {
+    color: #2ae43a;
+    text-shadow: 0 0 10px #28c23c, 0 0 20px #28c23c;
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.line {
+    margin: 1rem auto;
+    width: 0;
+    height: 4px;
+    background-color: #2ae43a;
+    animation: lineExpand 2s ease-out forwards;
+}
+
+@keyframes lineExpand {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 50%;
+    }
+}
+
+h1.display-4 {
+    font-size: 3rem;
+    font-weight: 700;
 }

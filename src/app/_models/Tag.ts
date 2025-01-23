@@ -11,6 +11,10 @@ export class Tag {
     static readonly REST = new Tag('Rest', 'lightgreen');
     static readonly MVC = new Tag('MVC', 'dark');
     static readonly JS = new Tag('JS', 'darkgreen');
+    static readonly POSTGRESQL = new Tag('POSTGRESQL', '#3a9e9e');
+    static readonly SPRINGBOOT = new Tag('SPRINGBOOT', '#753a9e');
+
+
 
     private constructor(private readonly key: string, public readonly color: string){
 

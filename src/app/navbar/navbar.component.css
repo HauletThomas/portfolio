@@ -1,0 +1,27 @@
+.nav-link {
+    position: relative;
+    color: #6c757d; /* Gris */
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 0.5rem;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #2ae43a; /* Bleu */
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: #2ae43a; /* Bleu */
+    transition: width 0.3s ease;
+}
+
+.nav-link:hover::after {
+    width: 100%;
+}

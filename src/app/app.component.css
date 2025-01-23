@@ -1,3 +1,4 @@
-/* html{
-    background-color: black !important;
-} */
+.container {
+    overflow: hidden; /* Élimine la barre de défilement horizontal */
+}
+

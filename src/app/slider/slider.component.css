@@ -1,0 +1,25 @@
+.carousel {
+    margin: 1rem 0;
+    border-radius: 10px;
+    overflow: hidden; /* Empêche tout débordement */
+}
+
+.carousel-item img {
+    width: 100%; /* S'étend à la largeur du conteneur parent */
+    height: 300px; /* Hauteur fixe pour uniformiser */
+    object-fit: cover;
+    background-color: #fff !important;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+    .carousel-item img {
+        height: 200px; /* Réduction de la hauteur pour les petits écrans */
+    }
+}
+p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-top: 1rem;
+}

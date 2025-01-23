@@ -1,16 +1,16 @@
 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-inner" >
-      <div *ngFor="let project of projects.slice(0,3) let i = index" class="carousel-item active" [class.active]="i === 0">
-        <img src="{{project.pictures}}" style="justify-content: center; max-height: 300px; min-height: 300px;" alt="...">
-        <p>{{project.description}}</p>
+  <div class="carousel-inner">
+      <div *ngFor="let project of projects.slice(0,3); let i = index" class="carousel-item" [class.active]="i === 0">
+          <img src="{{project.pictures}}" alt="Project image" class="d-block w-100" style="max-height: 300px;">
+          <p class="text-center mt-3">{{project.description}}</p>
       </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Next</span>
-    </button>
-  </div>
+  </button>
+</div>
