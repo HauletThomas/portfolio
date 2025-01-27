@@ -6,9 +6,9 @@ import { ResumeComponent } from './resume/resume.component';
 
 export const routes: Routes = [
     { path: '', redirectTo: '/home', pathMatch: 'full' },
-    { path: 'home', component: HomeComponent},
-    { path: 'portfolio', component:PortfolioComponent},
-    { path: 'contact', component: ContactComponent },
-    { path: 'resume', component: ResumeComponent},
-    { path: '**', redirectTo: '/home', pathMatch: 'full' }
+    { path: 'home', component: HomeComponent, data: { animation: 'HomePage'}},
+    { path: 'portfolio', component:PortfolioComponent, data: { animation: 'PortfolioPage'}},
+    { path: 'contact', component: ContactComponent , data: { animation: 'ContactPage'}},
+    { path: 'resume', component: ResumeComponent, data: { animation: 'ResumePage'}},
+    { path: '**', redirectTo: '', pathMatch: 'full' }
 ];

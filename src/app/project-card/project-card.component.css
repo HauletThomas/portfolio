@@ -8,3 +8,16 @@
     background-color: blue;
     color: white;
 }
+
+.btn-primary {
+    background: linear-gradient(135deg, #00ff4c, #00b327);
+    border: none;
+    font-weight: bold;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-primary:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 255, 21, 0.4);
+    background: linear-gradient(135deg, #00b30f, #008020);
+}

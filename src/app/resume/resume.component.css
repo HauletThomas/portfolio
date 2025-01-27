@@ -1,0 +1,36 @@
+.btn-primary {
+    background: linear-gradient(135deg, #00ff4c, #00b327);
+    border: none;
+    font-weight: bold;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-primary:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 255, 21, 0.4);
+    background: linear-gradient(135deg, #00b30f, #008020);
+}
+
+.accordion-button {
+    background: linear-gradient(135deg, #343a40, #495057);
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    border: none;
+}
+
+.accordion-button:hover {
+    background: linear-gradient(135deg, #495057, #6c757d);
+    color: #00ff4c;
+}
+
+.accordion-body {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #212529;
+}
+.accordion-button:focus {
+    box-shadow: none !important;
+    outline: none !important;
+}

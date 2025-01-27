@@ -1,0 +1,44 @@
+.container {
+    margin-top: 2rem;
+}
+
+.text-center {
+    background: linear-gradient(135deg, #343a40, #2c354b);
+    color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.text-center:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.list-group {
+    margin-top: 2rem;
+    background: #f8f9fa;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.list-group-item {
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.list-group-item:hover {
+    background: #40f509;
+    color: white;
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 255, 85, 0.3);
+}
+
+.list-group-item img {
+    border: 2px solid white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.list-group-item:hover img {
+    transform: rotate(360deg) scale(1.2);
+}
